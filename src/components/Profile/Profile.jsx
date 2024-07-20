@@ -19,7 +19,7 @@ import css from './Profile.module.css'
       <span className={css.stats}>{stats.followers}</span>
     </li>
     <li>
-      <span className={css.statsTitle}>Views</span> <br />
+      <span className={css.statsTitle}>Views</span> <br/>
       <span className={css.stats}>{stats.views}</span>
     </li>
     <li>
