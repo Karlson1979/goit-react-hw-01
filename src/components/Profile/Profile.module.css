@@ -11,8 +11,11 @@
  list-style: none;
  display: flex;
  justify-content: center;
- gap: 50px;
+ /* gap: 50px; */
 
+}
+.item{
+    margin-right: 50px;
 }
 .name{
     font-size: 50px;
@@ -32,4 +35,5 @@
     width: 300px;
     border: 1px solid gray;
     border-radius: 50%;
+    background-color: gray;
 }

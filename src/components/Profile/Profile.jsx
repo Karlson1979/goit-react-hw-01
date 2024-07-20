@@ -14,15 +14,15 @@ import css from './Profile.module.css'
   </div>
 
   <ul className={css.list}>
-    <li>
+    <li className={css.item}>
       <span className={css.statsTitle}>Followers</span><br />
       <span className={css.stats}>{stats.followers}</span>
     </li>
-    <li>
+    <li className={css.item}>
       <span className={css.statsTitle}>Views</span> <br/>
       <span className={css.stats}>{stats.views}</span>
     </li>
-    <li>
+    <li className={css.item}>
       <span className={css.statsTitle}>Likes</span> <br />
       <span className={css.stats}>{stats.likes}</span>
     </li>
