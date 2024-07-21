@@ -1,11 +1,11 @@
 import React from 'react'
 
- const FriendList = () => {
-  return (
+ const FriendList = ({friends}) => {
+  return ( 
     <div><ul>
 	
 	<li>
-		<FriendListItem />
+		
 	</li>
 </ul></div>
   )
