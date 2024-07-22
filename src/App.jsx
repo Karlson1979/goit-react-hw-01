@@ -3,7 +3,7 @@ import userData from './userData.json'
 import './App.css'
 import Profile from './components/Profile/Profile'
 import FriendList from './components/FriendList/FriendList'
-import Friends from './friends.json'
+import friends from './friends.json'
 
 function App() {
   
@@ -17,8 +17,9 @@ function App() {
         image={userData.avatar}
         stats={userData.stats}
       />
-    <FriendList friends={friends} />
-      
+    
+    <FriendList 
+    friends={friends} />
      
     </>
   )
