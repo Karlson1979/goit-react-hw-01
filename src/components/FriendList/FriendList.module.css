@@ -1,0 +1,14 @@
+.card{
+    list-style: none;
+    display: flex;
+    justify-content:stretch;
+    gap: 50px;
+    margin-top: 50px;
+  
+
+}
+.list{
+    border: 2px solid gray;
+    padding: 10px 30px;
+    margin: 0 auto;
+}
