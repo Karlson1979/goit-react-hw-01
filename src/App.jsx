@@ -4,6 +4,9 @@ import './App.css'
 import Profile from './components/Profile/Profile'
 import FriendList from './components/FriendList/FriendList'
 import friends from './friends.json'
+ import TransactionHistory from './components/TransactionHistory/TransactionHistory'
+ import transactions from './transactions.json'
+
 
 function App() {
   
@@ -20,7 +23,9 @@ function App() {
     
     <FriendList 
     friends={friends} />
-     
+
+
+     <TransactionHistory items={transactions}/>
     </>
   )
 }
